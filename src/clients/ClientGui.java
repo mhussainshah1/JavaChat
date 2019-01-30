@@ -21,12 +21,12 @@ import java.util.Arrays;
 
 public class ClientGui extends Thread {
 
-    final JTextPane jtextFilDiscu = new JTextPane();
-    final JTextPane jtextListUsers = new JTextPane();
-    final JTextField jtextInputChat = new JTextField();
-    BufferedReader input;
-    PrintWriter output;
-    Socket server;
+    final private JTextPane jtextFilDiscu = new JTextPane();
+    final private JTextPane jtextListUsers = new JTextPane();
+    final private JTextField jtextInputChat = new JTextField();
+    private BufferedReader input;
+    private PrintWriter output;
+    private Socket server;
     private String oldMsg = "";
     private Thread read;
     private String serverName;

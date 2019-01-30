@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>clients.Client</OriginalElement>
+  <nodes>
+    <node x="129.5" y="0.0">java.lang.FunctionalInterface</node>
+    <node x="260.0" y="315.0">clients.Client</node>
+    <node x="135.0" y="315.0">server.Server</node>
+    <node x="0.0" y="315.0">server.ColorInt</node>
+    <node x="317.0" y="160.0">server.UserHandler</node>
+    <node x="109.0" y="160.0">clients.ReceivedMessagesHandler</node>
+    <node x="5.0" y="160.0">java.lang.Thread</node>
+    <node x="0.0" y="240.0">clients.ClientGui</node>
+    <node x="154.5" y="80.0">java.lang.Runnable</node>
+    <node x="0.0" y="390.0">server.User</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="clients.ClientGui" target="java.lang.Thread">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.Runnable" target="java.lang.FunctionalInterface">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="server.UserHandler" target="java.lang.Runnable">
+      <point x="0.0" y="-15.0" />
+      <point x="373.0" y="135.0" />
+      <point x="235.33333333333334" y="135.0" />
+      <point x="32.33333333333334" y="15.0" />
+    </edge>
+    <edge source="clients.ReceivedMessagesHandler" target="java.lang.Runnable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.Thread" target="java.lang.Runnable">
+      <point x="0.0" y="-15.0" />
+      <point x="47.0" y="135.0" />
+      <point x="170.66666666666666" y="135.0" />
+      <point x="-32.33333333333334" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="214.5" y="210.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
