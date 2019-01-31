@@ -128,6 +128,8 @@ public class ClientGui extends Thread {
         jtfAddr.getDocument().addDocumentListener(new TextListener(jtfName, jtfport, jtfAddr, jcbtn));
 
         // position des Modules
+        //position of the Modules
+
         jcbtn.setFont(font);
         jtfAddr.setBounds(25, 380, 135, 40);
         jtfName.setBounds(375, 380, 135, 40);
@@ -135,6 +137,8 @@ public class ClientGui extends Thread {
         jcbtn.setBounds(575, 380, 100, 40);
 
         // couleur par defaut des Modules fil de discussion et liste des utilisateurs
+        //default color of Thread Modules and User List
+
         jtextFilDiscu.setBackground(Color.LIGHT_GRAY);
         jtextListUsers.setBackground(Color.LIGHT_GRAY);
 
@@ -149,6 +153,8 @@ public class ClientGui extends Thread {
 
 
         // info sur le Chat
+        //chat info
+
         appendToPane(jtextFilDiscu, "<h4>Les commandes possibles dans le chat sont:</h4>"
                 + "<ul>"
                 + "<li><b>@nickname</b> pour envoyer un Message privé à l'utilisateur 'nickname'</li>"
@@ -228,6 +234,7 @@ public class ClientGui extends Thread {
     }
 
     // envoi des messages
+    //sending messages
     public void sendMessage() {
         try {
             String message = jtextInputChat.getText().trim();
@@ -284,6 +291,7 @@ public class ClientGui extends Thread {
             }
         }
 
+        @Override
         public void insertUpdate(DocumentEvent e) {
             if (jtf1.getText().trim().equals("") ||
                     jtf2.getText().trim().equals("") ||
