@@ -11,7 +11,7 @@ A simple java chat application
         <li><b>top arrow</b> to resume the last message typed</li>
         </ul><br/>
 <p align="center">
-  <a href="https://raw.githubusercontent.com/Drakirus/java-chat/master/screen.png">
+  <a href="screen.png">
     <img alt="ScreenShot~ prompt" src="https://raw.githubusercontent.com/mhussainshah1/java-chat/master/screen.png">
   </a>
 </p>
